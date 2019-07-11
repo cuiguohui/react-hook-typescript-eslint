@@ -1,8 +1,12 @@
+/**
+ * Created by 崔国辉 on 2019/7/10 10:58
+ * Develop by 崔国辉 on 2019/7/10 10:58
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import App from './app/App';
+import './index.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

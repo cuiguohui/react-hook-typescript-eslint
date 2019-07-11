@@ -4,12 +4,11 @@
   "private": true,
   "dependencies": {
     "deepcopy": "^2.0.0",
-    "eslint-plugin-typescript": "^0.14.0",
     "react": "^16.8.6",
     "react-app-rewired": "^2.1.3",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1",
-    "typescript-eslint-parser": "^22.0.0"
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1"
   },
   "scripts": {
     "start": "react-app-rewired start",
@@ -37,9 +36,13 @@
     "@types/react-dom": "^16.8.4",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
+    "eslint-import-resolver-webpack": "^0.11.1",
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.2",
-    "typescript": "^3.5.2"
+    "eslint-plugin-typescript": "^0.14.0",
+    "typescript": "^3.5.2",
+    "typescript-eslint-parser": "^22.0.0",
+    "typings-for-css-modules-loader": "^1.7.0"
   }
 }

@@ -4,7 +4,7 @@ module.exports = {
         "es6": true
     },
     "extends": "airbnb",
-    "parser": "babel-eslint",
+    "parser": 'typescript-eslint-parser',
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -46,7 +46,7 @@ module.exports = {
         // 强制数组方法的回调函数中有 return 语句
         "array-callback-return":0,
         // 强制把变量的使用限制在其定义的作用域范围内
-        "block-scoped-var":0,
+        "block-scoped-var":2,
         // 强制在块之前使用一致的空格
         "space-before-blocks": [2,"always"],
         // 强制在 function的左括号之前使用一致的空格
@@ -64,5 +64,10 @@ module.exports = {
         // 接口提示未定义
         "no-undef": 0,
         "react/jsx-filename-extension": 0,
+        "import/extensions": [2, "never", { "web.js": "never", "json": "never",'jsx':"never",'tsx':'never','ts':"never" }],
+        "import/no-extraneous-dependencies": [2, { "devDependencies": true }],
+        "import/no-unresolved":0,
+         // 禁止未使用的变量
+         "no-unused-vars": 2,
         }
 };
