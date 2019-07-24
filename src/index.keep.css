@@ -1,20 +1,26 @@
+/**
+ * Created by 崔国辉 on 2019/7/19 17:44
+ * Develop by 崔国辉 on 2019/7/19 17:44
+ */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  monospace;
 }
 
 body,html{
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 #root{
@@ -22,3 +28,9 @@ body,html{
   height: 100%;
   background: #d43c33;
 }
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+

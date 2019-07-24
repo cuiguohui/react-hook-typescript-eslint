@@ -4,6 +4,9 @@
   "private": true,
   "dependencies": {
     "deepcopy": "^2.0.0",
+    "http-proxy-middleware": "^0.19.1",
+    "node-fetch": "^2.6.0",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-app-rewired": "^2.1.3",
     "react-dom": "^16.8.6",
